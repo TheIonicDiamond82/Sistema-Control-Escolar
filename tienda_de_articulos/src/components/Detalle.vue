@@ -4,8 +4,8 @@
     <br>
     <h2>Datos del Articulo</h2><br>
     Articulo número: {{id}} <br><br>
-    Descripcion: {{articulos.descripcion}}<br><br>
-    Cantidad: {{articulos.cantidad}}<br><br>
+    Descripcion: {{articulos.Descripcion}}<br><br>
+    Cantidad: {{articulos.Cantidad}}<br><br>
     Precio: {{articulos.precio}}
     </div>
 </template>
