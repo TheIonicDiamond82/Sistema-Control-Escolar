@@ -1,0 +1,34 @@
+alumnos payload (ruta= http://localhost:3000/api/alumnos)
+{
+  "nombre": "Juanito",
+  "carrera": "ISC",
+  "estatus": "A"
+}
+
+maestros payload (ruta= http://localhost:3000/api/maestros)
+{
+  "nombre": "Juan",
+  "departamento": 1,
+  "estatus": "A"
+}
+
+materias payload (ruta= http://localhost:3000/api/materias)
+{
+  "clavemateria": "MAT001",
+  "nombre": "Matemáticas",
+  "creditos": 4
+}
+
+grupos payload (ruta= http://localhost:3000/api/grupos)
+{
+  "clavemateria": "MAT001",
+  "clavegrupo": "G01",
+  "clavemaestro": 0,
+  "limitealumnos": 30,
+  "inscritos": 0,
+  "horariolunes": "08:00-09:00",
+  "horariomartes": "10:00-11:00",
+  "horariomiercoles": "08:00-09:00",
+  "horariojueves": "10:00-11:00",
+  "horarioviernes": "08:00-09:00"
+}
