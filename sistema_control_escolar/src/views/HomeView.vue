@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/LogoFurn.png">
+    <img class="logo" alt="Vue logo" src="../assets/LogoTec.png">
     <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
-    <h1 class="h1">Mueblerias TheIonic</h1>
+    <h1 class="h1">Sistema Control Escolar ITC</h1>
   </div>
 </template>
 
@@ -18,10 +18,16 @@ export default {
 }
 </script>
 <style>
+.logo
+{
+  width:25%;
+  padding-top: 40px;
+}
 .h1{
+  padding-top: 30px;
   font-family:'Impact', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color:purple;
-  text-shadow: orangered 2px -2px;
+  text-shadow: orangered 1px -1px;
 }
 *
 {

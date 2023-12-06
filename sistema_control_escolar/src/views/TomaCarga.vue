@@ -5,7 +5,7 @@
 <script>
 import FormBajas from '../components/FormBajas.vue';
 export default {
-    name: "Bajas",
+    name: "TomaCarga",
     components: {FormBajas},
     data: function()
     {

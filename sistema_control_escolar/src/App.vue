@@ -2,11 +2,11 @@
   <div id="app">
     <nav >
       <router-link to="/">Inicio</router-link> 
-      <router-link to="/articulos">Articulos</router-link>
-      <router-link to="/proveedores">Proveedores</router-link>
-      <router-link to="/clientes">Clientes</router-link>
-      <router-link to="/altas">Altas de articulos</router-link>
-      <router-link to="/bajas">Bajas de articulos</router-link>
+      <router-link to="/alumnos">Alumnos</router-link>
+      <router-link to="/maestros">Maestros</router-link>
+      <router-link to="/materias">Materias</router-link>
+      <router-link to="/grupos">Grupos</router-link>
+      <router-link to="/tomacarga">Toma de Carga</router-link>
     </nav>
     <router-view/>
     
@@ -24,8 +24,8 @@
 
 nav {
   padding: 30px;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(145,10,115,0.9668242296918768) 34%, rgba(205,223,17,1) 66%);
-  text-align: left;
+  background: rgb(131, 7, 148);
+  text-align: center;
 
   a {
     font-weight: 999;

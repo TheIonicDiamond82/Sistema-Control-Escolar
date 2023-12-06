@@ -50,6 +50,7 @@ app.get('/api/alumnos/:ncontrol', (req, res) => {
 //Post alumnos
 app.post('/api/alumnos', (req, res) => {
     let data = {
+        ncontrol: req.body.ncontrol,
         nombre: req.body.nombre,
         carrera: req.body.carrera,
         estatus: req.body.estatus
@@ -121,6 +122,7 @@ app.get('/api/maestros/:clavemaestro', (req, res) => {
 //Post maestros
 app.post('/api/maestros', function (req, res) {
     let data = {
+        clavemaestro: req.body.clavemaestro,
         nombre: req.body.nombre,
         departamento: req.body.departamento,
         estatus: req.body.estatus

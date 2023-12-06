@@ -5,7 +5,7 @@
 <script>
 import ArticulosLista from '../components/ArticulosLista.vue'
 export default {
-    name: "Articulos",
+    name: "Materias",
     components: {ArticulosLista},
     data: function()
     {
