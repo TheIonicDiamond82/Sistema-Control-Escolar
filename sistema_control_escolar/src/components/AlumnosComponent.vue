@@ -23,7 +23,7 @@
                     {{alu.carrera}}
                 </td>
                 <td >
-                    {{alu.estatus}}
+                    {{alu.estatus=='A'?'Activo':'Inactivo'}}
                 </td>
                 <td >
                    <button id="edit" class="btn btn-info btn-md" @click.prevent="editarAlumno(alu.ncontrol)">Editar alumno</button>

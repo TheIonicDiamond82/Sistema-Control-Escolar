@@ -7,15 +7,13 @@ import Maestros from '../views/Maestros.vue'
 import Alumnos from '../views/Alumnos.vue'
 import EditarAlumno from '../components/EditarAlumno.vue'
 import NuevoAlumno from '../components/NuevoAlumno.vue'
-import NuevoProveedor from '../components/NuevoProveedor.vue'
-import EditarProveedor from '../components/EditarProveedor.vue'
 import Materias from '../views/Materias.vue'
+import EditarMateria from '../components/EditarMateria.vue'
+import NuevaMateria from '../components/NuevaMateria.vue'
 import Grupos from '../views/Grupos.vue'
+import EditarGrupo from '../components/EditarGrupo.vue'
+import NuevoGrupo from '../components/NuevoGrupo.vue'
 import TomaCarga from '../views/TomaCarga.vue'
-import FormAltas from '../components/FormAltas.vue'
-import FormBajas from '../components/FormBajas.vue'
-import TablaAltas from '../components/TablaAltas.vue'
-import TablaBajas from '../components/TablaBajas.vue'
 
 Vue.use(VueRouter)
 
@@ -69,40 +67,37 @@ const routes = [
     component:Materias,
   },
   {
+    path:'/editarmateria',
+    name:'editarmateria',
+    component:EditarMateria,
+    props:true
+  },
+  {
+    path:'/nuevamateria',
+    name:'nuevamateria',
+    component:NuevaMateria,
+  },
+  {
     path:'/grupos',
     name:'grupos',
     component:Grupos,
   },
   {
-    path:'/editarproveedor',
-    name:'editarproveedor',
-    component:EditarProveedor,
-    props:true
+    path:'/editargrupo',
+    name:'editargrupo',
+    component:EditarGrupo,
   },
   {
-    path:'/nuevoproveedor',
-    name:'nuevoproveedor',
-    component:NuevoProveedor,
-
+    path:'/nuevogrupo',
+    name:'nuevogrupo',
+    component:NuevoGrupo,
   },
   {
     path:'/tomacarga',
     name:'tomacarga',
     component:TomaCarga,
 
-  },
-  {
-    path:'/formbajas',
-    name:'formbajas',
-    component:FormBajas,
-
-  },
-  {
-    path:'/tablabajas',
-    name:'tablabajas',
-    component:TablaBajas,
-
-  },
+  }
 ]
 
 const router = new VueRouter({

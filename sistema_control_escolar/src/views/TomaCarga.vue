@@ -1,12 +1,12 @@
 <template>
-    <form-bajas></form-bajas>
+    <toma-carga-component></toma-carga-component>
 </template>
 
 <script>
-import FormBajas from '../components/FormBajas.vue';
+import TomaCargaComponent from '../components/TomaCargaComponent.vue';
 export default {
     name: "TomaCarga",
-    components: {FormBajas},
+    components: {TomaCargaComponent},
     data: function()
     {
         return {};

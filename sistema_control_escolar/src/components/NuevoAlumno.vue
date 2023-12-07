@@ -24,7 +24,10 @@
     </select>
     <br>
     <label for="txtstatus">Estatus</label>
-    <input type="text" name="txtstatus" id="txtstatus" v-model="alumnos.estatus" class="form-control">
+    <select name="txtstatus" id="txtstatus" v-model="alumnos.estatus" class="form-control">
+        <option value="A">Activo</option>
+        <option value="I">Inactivo</option>
+    </select>
     <br>
     <button @click.prevent="nuevo()" class="btn btn-success btn-lg">Registrar nuevo alumno</button>
     </div>

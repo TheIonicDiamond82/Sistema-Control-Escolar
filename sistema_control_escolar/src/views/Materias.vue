@@ -1,12 +1,12 @@
 <template>
-    <articulos-lista></articulos-lista>
+    <materias-component></materias-component>
 </template>
 
 <script>
-import ArticulosLista from '../components/ArticulosLista.vue'
+import MateriasComponent from '../components/MateriasComponent.vue'
 export default {
     name: "Materias",
-    components: {ArticulosLista},
+    components: {MateriasComponent},
     data: function()
     {
         return {};

@@ -22,7 +22,7 @@
                     {{mtr.departamento}}
                 </td>
                 <td >
-                    {{mtr.estatus}}
+                    {{mtr.estatus=='A'?'Activo':'Inactivo'}}
                 <td >
                    <button id="edit" class="btn btn-info btn-md" @click.prevent="editarMaestro(mtr.clavemaestro)">Editar maestro</button>
                     <button class="btn btn-danger btn-md" @click.prevent="eliminarMaestro(mtr.clavemaestro)">Eliminar maestro</button>
